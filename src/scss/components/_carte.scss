@@ -1,0 +1,39 @@
+.carte {
+  background: #F0F0F0;
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+}
+.carte header {
+  --couleur-primaire: tomato;
+  background: var(--couleur-primaire);
+  padding: 60px 0;
+  text-align: center;
+}
+.carte:nth-child(1) header {
+  --couleur-primaire: #E34E26;
+}
+
+.carte:nth-child(2) header {
+  --couleur-primaire: #0270BB;
+}
+
+.carte:nth-child(3) header {
+  --couleur-primaire: #F8DC3D;
+}
+.carte h2 {
+  padding-top: 20px;
+}
+.carte .content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.carte-footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
